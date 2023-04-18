@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login and Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+  </head>
+  <style>
+    body {
+      background-image: url("background2.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="book.html">Services</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Help</a></li>
+          <li><a href="about.html">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="login-page">
+      <div class="form">
+        <form class="login-form">
+          <h2>Login</h2>
+          <input type="text" placeholder="Username or Email" />
+          <input type="password" placeholder="Password" />
+          <button>Log in</button>
+          <p class="message">
+            Not registered? <a href="#register-form">Create an account</a>
+          </p>
+          <p class="message">
+            Forgot Password? <a href="reset.html">Reset Password</a>
+          </p>
+        </form>
+
+        <form class="register-form">
+          <h2>Sign Up</h2>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Sign up</button>
+          <p class="message">Already registered? <a href="#">Log in</a></p>
+        </form>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(".message a").click(function () {
+        $("form").animate({ height: "toggle", opacity: "toggle" }, "slow");
+      });
+    </script>
+  </body>
+</html>

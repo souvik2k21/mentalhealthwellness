@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+}
+
+.login-page {
+	width: 360px;
+	padding: 8% 0 0;
+	margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #020202;
+    max-width: 360px;
+    margin: 0px auto 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+}
+
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form button {
+	font-family: "Roboto", sans-serif;
+	outline: none;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.form button {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	outline: none;
+	background: #731867;
+	width: 100%;
+	border: none;
+	padding: 15px;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+}
+
+.form button:hover {
+	background: #346ec4;
+}
+
+.form input[type="text"]:focus,
+.form input[type="password"]:focus,
+.form input[type="email"]:focus {
+	border-color: #27ae60;
+}
+
+.form h2 {
+	margin: 0 0 15px;
+	color: #fff;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+.form h3 {
+	margin: 0 0 15px;
+	color: #fff;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.form .message {
+	margin: 15px 0 0;
+	color: #fff;
+	font-size: 16px;
+}
+
+.form .message a {
+	color: #731867;
+	text-decoration: none;
+}
+
+.form .register-form {
+	display: none;
+}
+
+nav {
+    background-color: #ff5f5f;
+    color: #fff;
+    height: 60px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+    list-style: none;
+	text-decoration: none;
+  }
+  
+  nav a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    border-radius: 5px;
+	color: #020202;
+    transition: background-color 0.3s ease;
+	margin: 0 20px;
+    list-style: none;
+	text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #d5cece;
+  }

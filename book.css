@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fd8be0;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+label {
+    margin-top: 20px;
+}
+
+
+input {
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+
+    border-radius: 5px;
+    border-color:#27ae60;
+}
+form  {
+	margin: 0 0 15px;
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	outline: none;
+	background: #731867;
+	width: 35%;
+	border: none;
+	padding: 14px;
+	color: white;
+	cursor: pointer;
+  margin-top: 10px;
+	transition: all 0.4s ease-in-out;
+}
+.form input[type="text"]:focus,
+.form input[type="password"]:focus,
+.form input[type="email"]:focus {
+	border-color: #27ae60;
+}
+button:hover {
+    background-color: #24c178;
+}
+form {
+	position: relative;
+	z-index: 1;
+	background: #020202;
+	max-width: 300px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+footer {
+    background-color: #333;
+    color: #ff0d0d;
+    text-align: center;
+    padding: 4px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-weight: bold;
+  }--> 
+  h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+ 
+  
+ 
+  /* navigation bar */
+  nav {
+    background-color: #ff5f5f;
+    color: #fff;
+    height: 60px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 20px;
+    list-style: none;
+  }
+  
+  nav a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #d5cece;
+  }
+  

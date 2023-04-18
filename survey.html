@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mental Health Assessment</title>
+    <link rel="stylesheet" type="text/css" href="survey.css" />
+  </head>
+  <style>
+    body {
+      background-image: url("background2.jpg");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Mental Health Assessment</h1>
+      <form>
+        <label for="response1">How are you feeling today?</label>
+        <select id="response1">
+          <option value="Good">Good</option>
+          <option value="Okay">Okay</option>
+          <option value="Bad">Bad</option>
+        </select>
+
+        <label for="response2"
+          >Have you talked to anyone about how you're feeling?</label
+        >
+        <select id="response2">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+          <option value="Not sure">Not sure</option>
+        </select>
+
+        <label for="response3"
+          >On a scale of 1 to 10, how much are you prioritizing your mental
+          health right now?</label
+        >
+        <select id="response3">
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+
+        <label for="response4">Do you feel like you need help?</label>
+        <select id="response4">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+          <option value="Not sure">Not sure</option>
+        </select>
+
+        <label for="response5"
+          >Are you taking breaks and practicing self-care regularly?</label
+        >
+        <select id="response5">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+          <option value="Not sure">Not sure</option>
+        </select>
+
+        <label for="response6"
+          >Do you feel comfortable and secure in your current living
+          situation?</label
+        >
+        <select id="response6">
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+          <option value="Not sure">Not sure</option>
+        </select>
+
+        <button type="button" onclick="getResults()">Submit</button>
+      </form>
+
+      <div class="output">
+        <h2>Your Results</h2>
+        <p id="result"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

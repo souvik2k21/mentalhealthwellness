@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health & Wellness Website</title>
+    <link rel="stylesheet" href="book.css" />
+  </head>
+  <body>
+    <header>
+        <h1>Online Service Booking</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Help</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="login.html">Login</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" required>
+            <div class="login-options">
+                <label><input type="radio" name="login-type" value="threapy"> Threapy Season</label>
+                <label><input type="radio" name="login-type" value="doctor"> Doctor's Appiontment</label>
+              </div>
+            <button type="submit">Book Now</button>
+        </form>
+        
+    </main>
+    <footer>
+        <p>Copyright &copy; 2023</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
